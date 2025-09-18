@@ -9,13 +9,25 @@
     "web": "expo start --web"
   },
   "dependencies": {
-    "expo": "~54.0.7",
+    "@react-native-async-storage/async-storage": "2.2.0",
+    "@supabase/supabase-js": "^2.57.4",
+    "expo": "^54.0.8",
+    "expo-constants": "~18.0.9",
+    "expo-file-system": "~19.0.14",
+    "expo-location": "~19.0.7",
+    "expo-notifications": "~0.32.11",
+    "expo-sharing": "~14.0.7",
     "expo-status-bar": "~3.0.8",
+    "expo-task-manager": "~14.0.7",
     "react": "19.1.0",
-    "react-native": "0.81.4"
+    "react-native": "0.81.4",
+    "react-native-get-random-values": "^1.11.0",
+    "react-native-url-polyfill": "^2.0.0",
+    "undefined": "/",
+    "zustand": "^5.0.8"
   },
   "devDependencies": {
-    "@types/react": "~19.1.0",
+    "@types/react": "^18.3.24",
     "typescript": "~5.9.2"
   },
   "private": true

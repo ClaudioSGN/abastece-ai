@@ -1,8 +1,13 @@
 {
   "expo": {
-    "name": "abastece-ai-54",
-    "slug": "abastece-ai-54",
+    "name": "abastece-ai",
+    "slug": "abastece-ai",
     "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "extra": {
+      "supabaseUrl": "https://ajbkgbeqojdbowqjznhc.supabase.co",
+      "supabaseAnonKey": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImFqYmtnYmVxb2pkYm93cWp6bmhjIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTgxNTQ4MTgsImV4cCI6MjA3MzczMDgxOH0.be_NTkjmtUofJgwnYa-wU3twascClk0PUwvjvMf96V0"
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
