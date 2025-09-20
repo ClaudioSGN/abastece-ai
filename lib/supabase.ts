@@ -10,12 +10,10 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 const extra =
   (Constants.expoConfig?.extra as any) ??
   (Constants as any).manifest?.extra ??
-  {};
+  {} as any;
 
-const supabaseUrl: string | undefined =
-  extra.supabaseUrl ?? process.env.EXPO_PUBLIC_SUPABASE_URL;
-const supabaseAnonKey: string | undefined =
-  extra.supabaseAnonKey ?? process.env.EXPO_PUBLIC_SUPABASE_ANON_KEY;
+const supabaseUrl = extra.supabaseUrl ?? process.env.EXPO_PUBLIC_SUPABASE_URL;
+const supabaseAnonKey = extra.supabaseAnonKey ?? process.env.EXPO__PUBLIC_SUPABASE_ANON_KEY;
 
 if (!supabaseUrl || !supabaseAnonKey) {
   throw new Error(
